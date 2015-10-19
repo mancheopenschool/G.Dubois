@@ -1,0 +1,323 @@
+h1{
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+.row {
+	margin: 10px;
+}
+[class*="col-"]{
+	text-align: center;
+}
+#coin{
+	text-align: left;
+	font-size:12px;
+}
+#periode{
+	vertical-align: text-bottom;
+	text-align: center;
+	font-size:12px;
+	transform: rotate(270deg);
+	transform-origin: center center 0;
+}
+.periode-top{
+	line-height:20px;
+	font-weight: bold;
+	height:42px;
+	font-size:12px;
+}
+.periode-other{
+	line-height:20px;
+	font-weight: bold;
+	height:82px;
+	font-size:12px;
+}
+.aucune{
+	vertical-align: middle;
+	line-height:80px;
+}
+.element{
+	line-height:20px;
+	font-weight: bold;
+	height:82px;
+	font-size:12px;
+}
+.lgd{
+	line-height:20px;
+	font-size:12px;
+	height:60px;
+	font-weight: bold;
+}
+.lgdd{
+	line-height:15px;
+	font-size:12px;
+	height:60px;
+	font-weight: bold;
+}
+.non-metaux{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #A0FFA0;
+}
+.non-metaux-gaz{
+	border: 1px solid black;
+	color: #FF0000;
+	background-color: #A0FFA0;
+}
+.gaz-nobles{
+	border: 1px solid black;
+	color: #FF0000;
+	background-color: #C0FFFF;
+}
+.gaz-nobles-dashed{
+	border: 1px dashed black;
+	color: #FF0000;
+	background-color: #C0FFFF;
+}
+.gaz-nobles-dotted{
+	border: 1px dotted black;
+	color: #000000;
+	background-color: #C0FFFF;
+}
+.metaux-alcalins{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FF6666;
+}
+.metaux-alcalins-dashed{
+	border: 1px dashed black;
+	color: #000000;
+	background-color: #FF6666;
+}
+.alcalino-terreux{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FFDEAD;
+}
+.alcalino-terreux-dashed{
+	border: 1px dashed black;
+	color: #000000;
+	background-color: #FFDEAD;
+}
+.metalloides{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #CCCC99;
+}
+.metalloides-dashed{
+	border: 1px dashed black;
+	color: #000000;
+	background-color: #CCCC99;
+}
+.halogenes{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FFFF99;
+}
+.halogenes-dashed{
+	border: 1px dashed black;
+	color: #000000;
+	background-color: #FFFF99;
+}
+.halogenes-dotted{
+	border: 1px dotted black;
+	color: #000000;
+	background-color: #FFFF99;
+}
+.halogenes-gaz{
+	border: 1px solid black;
+	color: #FF0000;
+	background-color: #FFFF99;
+}
+.halogenes-liquide{
+	border: 1px solid black;
+	color: #0000FF;
+	background-color: #FFFF99;
+}
+.metaux-pauvres{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #CCCCCC;
+}
+.metaux-pauvres-dotted{
+	border: 1px dotted black;
+	color: #000000;
+	background-color: #CCCCCC;
+}
+.metaux-de-transition{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FFC0C0;
+}
+.metaux-de-transition-dotted{
+	border: 1px dotted black;
+	color: #000000;
+	background-color: #FFC0C0;
+}
+.metaux-de-transition-gaz{
+	border: 1px dotted black;
+	color: #FF0000;
+	background-color: #FFC0C0;
+}
+.metaux-de-transition-liquide{
+	border: 1px solid black;
+	color: #0000FF;
+	background-color: #FFC0C0;
+}
+.lanthanides{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FFBFFF;
+}
+.lanthanides-dashed{
+	border: 1px dashed black;
+	color: #000000;
+	background-color: #FFBFFF;
+}
+.actinides{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FF99CC;
+}
+.actinides-dashed{
+	border: 1px dashed black;
+	color: #000000;
+	background-color: #FF99CC;
+}
+.actinides-dotted{
+	border: 1px dotted black;
+	color: #000000;
+	background-color: #FF99CC;
+}
+.metaux-alcalins-legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FF6666;
+}
+.alcalino-terreux-legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FFDEAD;
+}
+.lanthanides-legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FFBFFF;
+}
+.actinides-legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FF99CC;
+}
+.metaux-de-transition-legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FFC0C0;
+}
+.metaux-pauvres-legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #CCCCCC;
+}
+.metalloides-legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #CCCC99;
+}
+.non-metaux-legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #A0FFA0;
+}
+.halogenes-legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #FFFF99;
+}
+.gaz-nobles-legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #C0FFFF;
+}
+.legend{
+	border: 1px solid black;
+	color: #000000;
+	background-color: #EBEBEB;
+}
+.legend-dashed{
+	border: 1px dashed black;
+	color: #000000;
+	background-color: #EBEBEB;
+}
+.legend-dotted{
+	border: 1px dotted black;
+	color: #000000;
+	background-color: #EBEBEB;
+}
+.borbot{
+	border-bottom: 1px solid black;
+}
+@media screen and (max-width: 1920px) {
+	.element, .lgd, .lgdd, .periode-top, .periode-other, #periode, #coin{
+		font-size:11px;
+	}
+}
+@media screen and (max-width: 1740px) {
+	.element, .lgd, .lgdd, .periode-top, .periode-other, #periode, #coin{
+		font-size:10px;
+	}
+}
+@media screen and (max-width: 1440px) {
+	.element, .lgd, .lgdd, .periode-top, .periode-other, #periode, #coin{
+		font-size:9px;
+	}
+}
+@media screen and (max-width: 1280px) {
+	.responsive{
+		display: none;
+	}
+	.element{
+		height:42px;
+		font-size:14px;
+	}
+	.periode-other{
+		height:42px;
+	}
+	.aucune{
+		line-height:40px;
+	}
+}
+@media screen and (max-width: 720px) {
+	.element{
+		height:32px;
+		font-size:11px;
+		line-height:15px;
+	}
+	.periode-other{
+		line-height:15px;
+		height:32px;
+	}
+	.aucune{
+		line-height:30px;
+	}
+	h1{
+		font-size:28px;
+	}
+}
+@media screen and (max-width: 580px) {
+	.element{
+		height:26px;
+		font-size:9px;
+		line-height:12px;
+	}
+	.periode-other{
+		line-height:12px;
+		height:26px;
+	}
+	.aucune{
+		line-height:24px;
+	}
+	h1{
+		font-size:20px;
+	}
+}

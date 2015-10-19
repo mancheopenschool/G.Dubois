@@ -1,0 +1,20 @@
+.row{
+	margin: 0 5px;
+}
+.carousel{
+	margin: 10px auto;
+	text-align: center;
+	width: 1000px;
+}
+div{
+	margin: 5px 0;
+}
+#navbar{
+	border: 1px solid black;
+}
+.navcol{
+	border-right: 1px solid #CCC;
+}
+#images img{
+	width: 100%;
+}
