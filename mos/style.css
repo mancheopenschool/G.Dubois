@@ -6,10 +6,13 @@
 	-webkit-background-size: cover;
 	background-size: cover;
 }*/
+body{
+	height: 100%;
+}
 .row {
 	margin: 0;
 }
-#nav-bar{
+#header{
 	border: 0;
 	width: 100%;
 	position: fixed;
@@ -32,15 +35,22 @@
 	font-weight: bold;
 }
 #wrapper{
-	padding: 100px 10px 0;
-	background: #aaa url(images/bg.jpg) no-repeat scroll; 
-	background-position: 0 100px;
+	position: relative;
+	top: 100;
+	z-index: -1;
+	padding: 0 10px;
+	background: #aaa url(images/bg.jpg) no-repeat scroll;
 	background-size: 100%;
 	color: #fff;
 	font-size: 32px;
 	font-family: bold;
 	text-shadow: 2px 2px #333;
-	height: 1024px;
+	width: 100%;
+	padding-bottom: 65,625%;
+	/*
+		1920 1260
+		http://stackoverflow.com/questions/1495407/how-to-maintain-the-aspect-ratio-of-a-div-using-only-css
+	*/
 }
 .logo{
 	text-align: center;
