@@ -1,0 +1,50 @@
+/*body { 
+	margin:0;
+	padding:0;
+	background: #aaa url(images/bg.jpg) no-repeat center fixed; 
+	background-position: 0 100px;
+	-webkit-background-size: cover;
+	background-size: cover;
+}*/
+.row {
+	margin: 0;
+}
+#nav-bar{
+	border: 0;
+	width: 100%;
+	position: fixed;
+}
+.menu{
+	background-color: #0098D3;
+	line-height: 20px;
+	font-family: Droid Sans;
+	color: #fff;
+	font-size: 13px;
+	text-align: left;
+	text-align: center;
+}
+#nom{
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 28px;
+}
+.menu-nav{
+	font-weight: bold;
+}
+#wrapper{
+	padding: 100px 10px 0;
+	background: #aaa url(images/bg.jpg) no-repeat scroll; 
+	background-position: 0 100px;
+	background-size: 100%;
+	color: #fff;
+	font-size: 32px;
+	font-family: bold;
+	text-shadow: 2px 2px #333;
+	height: 1024px;
+}
+.logo{
+	text-align: center;
+}
+.logo img{
+	width: 80px;
+}
