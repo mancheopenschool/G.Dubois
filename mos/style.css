@@ -194,3 +194,25 @@ nav a:active,
 #fondateurs img{
 	width:100%;
 }
+
+
+
+/****************INTÉGRATION PARTENAIRES****************/
+
+h2.part{
+	text-align: center;
+}
+.partenaire{
+	height: 100px;
+	vertical-align: bottom;
+	display: table-cell;
+}
+.partenairep{
+	height: 100px;
+	text-align: center;
+	display: block;
+}
+.partenaire img{
+	vertical-align: bottom;
+	width: 100%;
+}
