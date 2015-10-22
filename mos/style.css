@@ -176,3 +176,21 @@ nav a:active,
 	-o-filter: opacity(25%);
 	filter: opacity(25%);
  }
+
+
+
+
+ /**************INTÉGRATION PRINCIPE-FONDATEURS***************/
+
+
+.credits {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:9px;
+	color:#666;
+}
+#fondateurs{
+	border-left: 1px solid #dfdfdf;
+}
+#fondateurs img{
+	width:100%;
+}
