@@ -16,9 +16,9 @@ $('a[href^="#"]').on('click', function (e) {
       e.preventDefault();
         $(document).off("scroll");
          $('a').each(function () {
-            $(this).removeClass('active');
+            $(this).removeClass('actif');
         })
-        $(this).addClass('active');
+        $(this).addClass('actif');
          var target = this.hash,
          $target = $(target);
        $('html, body').stop().animate({
@@ -36,11 +36,11 @@ function onScroll(event){
         var currLink = $(this);
        var refElement = $(currLink.attr("href"));
         if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-            $('#menu a').removeClass("active");
-            currLink.addClass("active");
+            $('#menu a').removeClass("actif");
+            currLink.addClass("actif");
         }
         else{
-            currLink.removeClass("active");
+            currLink.removeClass("actif");
         }
     });
 }

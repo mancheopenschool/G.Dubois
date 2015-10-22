@@ -2,21 +2,61 @@
 
 body{
 	height: 100%;
-	background-color: #80cce9;
+	background-color: #fff;
 }
 .row {
 	margin: 0;
 }
 .logo{
 	text-align: center;
+	text-shadow: 1px 1px #333;
 }
 .logo img{
 	width: 80px;
+}
+.mos{
+	padding-top: 10px;
+}
+.social{
+	line-height: 80px;
+	height: 80px;
+	text-align: right;
+	font-size: 14px;
+}
+.social a{
+	text-decoration: none;
+}
+.fa-inverse-sfb,
+.fa-inverse-stw{
+	color: #0098D3;
+}
+.fa-inverse-fb,
+.fa-inverse-tw{
+	color: #fff;
+}
+.fb-hover:focus .fa-inverse-sfb,
+.fb-hover:hover .fa-inverse-sfb{
+	color: #fff;
+}
+.tw-hover:focus .fa-inverse-stw,
+.tw-hover:hover .fa-inverse-stw{
+	color: #fff;
+}
+.fb-hover:focus .fa-inverse-fb,
+.fb-hover:hover .fa-inverse-fb{
+	color: #0098D3;
+}
+.tw-hover:focus .fa-inverse-tw,
+.tw-hover:hover .fa-inverse-tw{
+	color: #0098D3;
 }
 #nom{
 	margin-top: 10px;
 	margin-bottom: 5px;
 	font-size: 28px;
+}
+#menuh{
+	padding-top: 20px;
 }
 .menu,
 nav{
@@ -25,7 +65,6 @@ nav{
 	font-family: Droid Sans;
 	color: #fff;
 	font-size: 13px;
-	text-align: left;
 	text-align: center;
 }
 nav.stickydiv{
@@ -36,22 +75,19 @@ nav.stickydiv{
 	width: 100%;
 	z-index: 10000;
 }
-nav a{
-	color: #fff;
-	text-decoration: none;
-}
+nav a,
 nav a:hover,
 nav a:focus{
 	color: #fff;
 	text-decoration: none;
 }
 nav a:active,
-.active{
+.actif{
 	color: #fff;
 	text-decoration: none;
 	font-weight: bold;
 }
-#div-accueil,
+#div-carousel,
 #div-inscription,
 #div-partenariat,
 #div-evenements,
@@ -60,16 +96,25 @@ nav a:active,
 #div-contact,
 #div-faq{
 	position: relative;
-	background-color: #80cce9;
+	/*background-color: #80cce9;*/
+	background-color: #fff;
 	background-repeat:  no-repeat;
 	background-attachment: scroll;
 	background-size: 100%;
 	width: 100%;
-	padding-bottom: 65.625%;
+	/*padding-bottom: 65.625%;*/
+	padding-bottom: 50%;
 }
-#div-accueil{
+/*#div-carousel{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	-ms-filter: grayscale(100%);
+	-o-filter: grayscale(100%);
+	filter: grayscale(100%);
+	filter: url(grayscale.svg);
+	filter: gray;
 	background-image: url(images/bg1.jpg);
-}
+}*/
 #div-partenariat{
 	background-image: url(images/bg2.jpg);
 }
@@ -82,7 +127,7 @@ nav a:active,
 #div-contact{
 	background-image: url(images/bg4.jpg);
 }
-#div-accueil > div,
+#div-carousel > div,
 #div-inscription > div,
 #div-partenariat > div,
 #div-evenements > div,
@@ -95,7 +140,6 @@ nav a:active,
 	bottom: 0;
 	left: 0;
 	right: 0;
-	padding: 0 10px;
 }
 .titre{
 	color: #fff;
@@ -103,3 +147,32 @@ nav a:active,
 	font-family: bold;
 	text-shadow: 2px 2px #333;
 }
+
+
+
+
+/*********INTEGRATION CAROUSEL*********/
+
+.carousel-caption{
+	/*color: #483D8B;*/
+	color: #0098D3;
+ 	text-shadow: 2px 2px #ccc;
+ 	font-weight: bold;
+}
+.carousel-caption {
+  /*background: none repeat scroll 0 0 rgba(0, 0, 0, 0.2);*/
+  /*border-radius: 25%;*/
+  /*height: 25%;
+  width: 9%;*/
+  position:  absolute;
+  top:  40%; /* Adjust to liking */
+  margin:  0 auto;
+}
+
+ .item img{
+	-webkit-filter: opacity(25%);
+	-moz-filter: opacity(25%);
+	-ms-filter: opacity(25%);
+	-o-filter: opacity(25%);
+	filter: opacity(25%);
+ }
