@@ -115,17 +115,17 @@ nav a:active,
 	filter: gray;
 	background-image: url(images/bg1.jpg);
 }*/
-#div-partenariat{
+/*#div-partenariat{
 	background-image: url(images/bg2.jpg);
-}
+}*/
 #div-programme{
-	background-image: url(images/bg3.jpg);
+	background-image: url(images/photo4.jpg);
 }
 /*#div-principe:hover{
 	background-color: #f0f;
 }*/
 #div-contact{
-	background-image: url(images/bg4.jpg);
+	background-image: url(images/photo5.jpg);
 }
 #div-carousel > div,
 #div-inscription > div,
@@ -215,4 +215,15 @@ h2.part{
 .partenaire img{
 	vertical-align: bottom;
 	width: 100%;
+}
+
+/**************FOOTER*******************/
+
+#footer{
+	height:40px;
+	line-height: 40px;
+	width: 100%;
+	background: linear-gradient(to bottom, #fff, #ccc);
+	color: #000;
+	text-align: center;
 }
