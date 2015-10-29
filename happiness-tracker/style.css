@@ -5,11 +5,30 @@ h1{
 	margin: 5px;
 }
 .row{
-	margin: 0 -5px 20px;
+	margin: 0 0 20px;
+}
+#bouton-user{
+	margin-left: -5px;
+	margin-right: -5px;
 }
 #bouton-user img{
 	width: 100%
 }
 #formulaire{
 	padding: 10px;
+}
+#slider-growth-code,
+#slider-happiness-code,
+#slider-happiness-life{
+	width: 500px;
+	margin-bottom: 10px;
+}
+label{
+	font-weight: normal;
+}
+#growth-code,
+#happiness-code,
+#happiness-life{
+	border: 0;
+	font-weight: bold;
 }
