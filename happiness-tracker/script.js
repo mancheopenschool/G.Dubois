@@ -21,4 +21,7 @@ $(document).ready(function(){
 	$('#growth-code').val($('#slider-growth-code').slider('value'));
 	$('#happiness-code').val($('#slider-happiness-code').slider('value'));
 	$('#happiness-life').val($('#slider-happiness-life').slider('value'));
+	$('#accordion').accordion({
+		collapsible: true, active: false, heightStyle: "content", animate: 100
+	});
 });

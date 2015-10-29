@@ -32,3 +32,9 @@ label{
 	border: 0;
 	font-weight: bold;
 }
+#labels{
+	margin-bottom: 20px;
+}
+#accordion{
+	width: 550px;
+}
