@@ -43,3 +43,6 @@ label{
 	position: relative;
 	z-index: 9999 !important;
 }
+.mood{
+	width: 150px;
+}
