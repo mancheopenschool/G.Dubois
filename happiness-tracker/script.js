@@ -21,7 +21,7 @@ $(document).ready(function(){
 	$('#growth-code').val($('#slider-growth-code').slider('value'));
 	$('#happiness-code').val($('#slider-happiness-code').slider('value'));
 	$('#happiness-life').val($('#slider-happiness-life').slider('value'));
-	$('#slider-growth-code, #slider-happiness-code, #slider-happiness-life').on("slide", function(event, ui){
+	$('#slider-growth-code, #slider-happiness-code, #slider-happiness-life').on("slidestop", function(event, ui){
 		var somme = $('#slider-growth-code').slider('value')
 					+ $('#slider-happiness-code').slider('value')
 					+ $('#slider-happiness-life').slider('value');
